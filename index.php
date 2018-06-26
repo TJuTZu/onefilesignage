@@ -40,8 +40,6 @@
 <?php
   // Default: define('ROOTDIR', '.');  // current directory
   define('ROOTDIR', 'All');
-  // Default: define('IMAGETIME', 20000); // 20 seconds
-  define('IMAGETIME', 20000);
 
 
   if(isset($_GET["dir"])){
@@ -72,6 +70,8 @@ carousel(1);
 function carousel() {
     var i;
     var x = document.getElementsByClassName("mySlides");
+    var imagetime = 20000; // 20 seconds
+
     for (i = 0; i < x.length; i++) {
        x[i].style.display = "none";  
     }
@@ -81,7 +81,7 @@ function carousel() {
     }
          
     x[myIndex-1].style.display = "block";  
-    setTimeout(carousel, IMAGETIME); // Image change interval
+    setTimeout(carousel, imagetime); // Image change interval
 }
 </script>
 
