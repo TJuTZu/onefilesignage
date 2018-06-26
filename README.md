@@ -11,4 +11,4 @@ Another folder can be shown also by starting browser with parameter index.php?di
 
 This allowes
 1) common content to all displays
-2) + individual content
+2) individual content
