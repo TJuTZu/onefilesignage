@@ -1,5 +1,5 @@
 # Encode Explorer
-by using Encode Explorer from http://encode-explorer.siineiolekala.net/ files can be uploaded with browser to web server or SMB share can be used.
+by using Encode Explorer from http://encode-explorer.siineiolekala.net/ files can be uploaded with browser to web server.
 
 # Raspberry pi
 Instrucions how to use Raspberry pi see http://raspberrypi.org
