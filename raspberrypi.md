@@ -4,7 +4,7 @@ by using Encode Explorer from http://encode-explorer.siineiolekala.net/ files ca
 # Raspberry pi
 Instrucions how to use Raspberry pi see http://raspberrypi.org
 
-To use pi server
+## To use pi as server
 - Install Apache
 ```
 sudo apt-get install apache2 -y
@@ -22,7 +22,7 @@ sudo apt-get install php-gd -y
 sudo /etc/init.d/apache2 restart
 ```
 
-and/or to use pi as client
+## and/or to use pi as client
 - Remove mouse cursor
 ```
 sudo apt-get install unclutter
