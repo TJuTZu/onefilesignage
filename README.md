@@ -25,4 +25,4 @@ This allowes
 
 
 
-Also sone instructions how to use [Raspberry Pi](raspberrypi.md) as server and client
+Also some instructions how to use Encode Explorer and [Raspberry Pi](raspberrypi.md) as server and client
