@@ -38,8 +38,8 @@
 <body>
 
 <?php
-  // Default: define('ROOTDIR', '.');  // current directory
-  define('ROOTDIR', 'All');
+  // define('ROOTDIR', '.');  // current folder
+  define('ROOTDIR', 'All');   // All subfolder
 
 
   if(isset($_GET["dir"])){
