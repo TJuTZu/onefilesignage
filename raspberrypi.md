@@ -2,7 +2,7 @@
 by using Encode Explorer from http://encode-explorer.siineiolekala.net/ files can be uploaded with browser to web server.
 
 # Raspberry pi
-Instrucions how to use Raspberry pi see http://raspberrypi.org
+Instructions how to use Raspberry pi see http://raspberrypi.org
 
 ## To use pi as server
 - Install Apache
