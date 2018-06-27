@@ -22,3 +22,7 @@ for example:
 This allowes
 1) common content to all displays
 2) and individual content for groups
+
+
+
+Also sone instructions how to use [Raspberry Pi](raspberrypi.md) as server and client
