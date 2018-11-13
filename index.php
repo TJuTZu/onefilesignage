@@ -52,11 +52,11 @@
   echo '<div id="frame" >';
   echo '<div class="w3-content w3-section">';
   foreach (glob(ROOTDIR . '/*.{jpg,JPG,jpeg}', GLOB_BRACE) as $file) {
-    echo '<img class="mySlides" src="' . $file . '?'.rand().'" >';
+    echo '<img class="mySlides" src="' . $file . '?'.date("YdmHis",filectime($file)).'" >';
   }
   if ($subdir === True) {
     foreach (glob($imgpath.'/*.{jpg,JPG,jpeg}', GLOB_BRACE) as $file) {
-      echo '<img class="mySlides" src="' . $file . '?'.rand().'" >';
+      echo '<img class="mySlides" src="' . $file . '?'.date("YdmHis",filectime($file)).'" >';
     }
   }
   echo '</div>'; // w3-content w3-section
